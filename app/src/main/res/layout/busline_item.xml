@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:src="@mipmap/busstopfull"
+        app:srcCompat="@mipmap/busstopfull" />
+
+    <TextView
+        android:id="@+id/busstopnameLabel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:text="@+id/label"
+        android:textSize="12dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Busstop name"></TextView>
+
+    <TextView
+        android:id="@+id/distanceLabel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@+id/label"
+        android:textSize="12dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Distance"></TextView>
+</LinearLayout>
